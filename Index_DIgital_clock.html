@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Digitalclock.css">
+    <title>Digital clock</title>
+</head>
+<body>
+    <!-- nav -->
+    <div class="row">
+        <h3>Select The Time Zone</h3>
+        <select id="select-country" name="time-zone">
+        </select>
+        <button onclick="addNewClock()">Add Clock</button>
+    </div>
+    <!-- for clock -->
+    <div class="SECTIONS">
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+    integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+
+<!-- Moment for Time -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"
+    integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-10-year-range.min.js"
+    integrity="sha512-y2eYup+msVcQKIPgbC9stlGRwpZuVFBfSY6uavnpxL+Rz6iVGRSRzCMLFbed0EMKg6Fbq52TmVwN6CPuNHcHLQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./Digitalclock.js"></script>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BESANT TECHNOLOGIES</title>
+</head>
+
+<body>
+    <header>BESANT TECHNOLOGIES</header><br>
+    <div class="nav">
+        <a href="Home.html">Home</a>
+        <a href="Courses.html">Courses</a>
+        <a href="Location.html">Location</a>
+        <a href="Contacts.html">Contact us</a>
+        <a href="AboutUs.html">About us</a>
+        <a href="Signup.html">Signup</a>
+    </div>
+    <h3>Sign up</h3>
+    <form action="./Home.html" method="get">
+        <div>
+            <input type="text" id="user_name" minlength="2" maxlength="60" placeholder="user_name"></input>
+        </div>
+        <br>
+        <div>
+            <input type="Email" id="mail" placeholder="email id" minlength="5" maxlength="30"></input>
+        </div>
+        <br>
+        <div>
+            <input type="password" id="pass" placeholder="password" minlength="3" maxlength="20" required></input>
+        </div>
+        <br>
+        <div>
+            <input type="number" id="num" placeholder=" phone number" min="3" max="1000000000000000"></input>
+        </div>
+        <br>
+
+        <div>
+            <label for="date">Date of birth : </label>
+            <input type="date" id="date"></input>
+        </div>
+        <br>
+        <div>
+            <label for="Courses">Courses : </label>
+            <select id="Courses">
+                <option></option>
+                <option>Java full stact</option>
+                <option>Salesforce</option>
+                <option>Python full stack</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="check1">Morning Batch</input>
+        </div>
+        <div>
+            <input type="checkbox" id="check2">Evening Batch</input>
+        </div>
+        <br>
+        <div>
+            <input type="radio" id="radio1">Daily Course</input>
+        </div>
+        <div>
+            <input type="radio" id="radio2">Weekly</input>
+        </div>
+        <br>
+        <div>
+            <label for="file_upload">Upload your resume</label>
+            <input type="file" id="file_upload"></input>
+        </div>
+        <br>
+        <div>
+            <button type="reset">Reset</button>
+            <input type="submit"></input>
+
+        </div>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>anolog clock</title>
+    <!-- adding css file -->
+    <link rel="stylesheet" href="./AnologClock.css">
+</head>
+<body>
+    
+    <div class="row">
+        <h3>Select The Time Zone</h3>
+        <select id="select-country" name="time-zone"> </select>
+        <button id="time" onclick="addNewClock()">Add Clock</button>
+    </div>
+
+    <div class="SECTIONS"> </div>
+
+
+
+    <button id="history" onclick="clearHistory()">Clear</button>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.4.slim.min.js"
+    integrity="sha256-a2yjHM4jnF9f54xUQakjZGaqYs/V1CYvWpoqZzC2/Bw=" crossorigin="anonymous"></script>
+
+<!-- Moment for Time -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment-with-locales.min.js"
+    integrity="sha512-42PE0rd+wZ2hNXftlM78BSehIGzezNeQuzihiBCvUEB3CVxHvsShF86wBWwQORNxNINlBPuq7rG4WWhNiTVHFg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-10-year-range.min.js"
+    integrity="sha512-y2eYup+msVcQKIPgbC9stlGRwpZuVFBfSY6uavnpxL+Rz6iVGRSRzCMLFbed0EMKg6Fbq52TmVwN6CPuNHcHLQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- adding js file -->
+    <script src="./AnologClock.js"></script>
+</html>
