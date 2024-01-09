@@ -1,0 +1,75 @@
+body {
+    background: linear-gradient(to right, rgb(188, 74, 45), rgb(181, 76, 76));
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.box1 {
+    background-color: azure;
+    height: 463px;
+    width: 970px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+
+.child {
+    display: grid;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    margin: auto;
+    height: 450px;
+    width: 950px;
+}
+
+.child1 {
+    background: linear-gradient(to right, rgb(90, 90, 225), aqua);
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child2 {
+    background: linear-gradient(to right, rgb(220, 43, 220), rgb(168, 41, 41));
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child3 {
+    background: linear-gradient(to right, red, rgb(219, 149, 19));
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child4 {
+    background: linear-gradient(to right, rgb(135, 63, 135), rgb(24, 149, 149));
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child5 {
+    background: linear-gradient(to right, rgb(72, 166, 58), rgb(111, 243, 129));
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.child6 {
+    background: linear-gradient(to right, rgb(124, 124, 230), rgb(225, 143, 225));
+    font-size: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}

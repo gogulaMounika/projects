@@ -1,0 +1,40 @@
+.title {
+    text-align: center;
+    font-size: 45px;
+}
+
+.main {
+    width: 50%;
+    text-align: center;
+    margin: 5% 25% 5% 25%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#parent {
+    line-height: 20px;
+    height: 350px;
+    width: 90%;
+    /* margin:0px 0% 2% 2%; */
+    text-align: justify;
+}
+
+span {
+    font-weight: bolder;
+}
+
+img {
+    width: 120px;
+    height: 150px;
+    float: left;
+    padding: 10px 10px 10px 10px;
+}
+
+.child1 {
+    float: left;
+    width: 46%;
+}
+
+.child2 {
+    width: 50%;
+    float: right;
+}

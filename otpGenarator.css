@@ -1,0 +1,9 @@
+#container{
+    margin-left: 43%;
+    margin-top: 14%;
+    width: 15%;
+    padding: 3%;
+    border: 2px solid black;
+    box-shadow: 2px 2px 7px rgb(65, 64, 64);
+    background-color: antiquewhite;
+  }

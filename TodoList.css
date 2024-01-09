@@ -1,0 +1,128 @@
+ /* common styles */
+ * {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#00ffff, #4dffff, #ccffff, #f2f2f2, #f2f2f2, #d7eb3d, #e5db46, #f8a82f, #fca44c);
+    /* background-color: ; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-position: fixed;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #050605;
+    color: #46eb18;
+}
+
+ul {
+    list-style-type: none;
+    /* get rid of bullet points on side of list items */
+}
+
+/* common style ends */
+/* container */
+.container {
+    min-width: 700px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+h1 {
+    /* color: #ff9900; */
+    /* color: #33001a; */
+    color: #800042;
+    font-size: 3rem;
+}
+
+/* todo-form */
+.todo-form {
+    margin: 40px 0px;
+}
+
+.todo-input {
+    width: 250px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+    background-color: #ff3399;
+    color: #080809;
+}
+
+.add-button {
+    /* background-color: #2727e6; */
+    background-color: #10e01b;
+    /* color: #fff; */
+    color: #080a08;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 1.2rem;
+}
+
+/* todo-form style ends */
+/* todo-items */
+.todo-items {
+    min-width: 350px;
+}
+
+/* each li with class="item" */
+.item {
+    background-color: #ff3399;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+/* item style end */
+.checkbox {
+    margin-right: 10px;
+}
+
+.delete-button {
+    float: right;
+    background-color: #46eb18;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.checkbox {
+    margin-right: 10px;
+    color: black;
+    color: green;
+}
+
+/* applied when the todo item is checked */
+.checked {
+    text-decoration: line-through;
+}
+
+/* todo-items style ends */
+/* container style ends */

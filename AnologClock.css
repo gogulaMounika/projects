@@ -1,0 +1,203 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background: url(./anologBackgrond.jpeg) center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.clocks {
+    justify-content: center;
+    display: center;
+    background-size: 100%;
+    margin-top: 2%;
+    margin: auto;
+    height: 10vh;
+    width: 100%;
+    text-align: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: larger;
+    font-style: oblique;
+
+}
+
+.sizeOfAnalog {
+    position: relative;
+    background: url(./clock.png) no-repeat;
+    background-size: 100%;
+    margin-top: 2%;
+    padding: 5px;
+    margin: 15px;
+    height: 35vh;
+    width: 35vh;
+    position: grid;
+    float: left;
+
+}
+
+
+/* clear history css code start*/
+#history {
+    background-size: 100%;
+    margin-top: 2%;
+    padding: 5px;
+    margin: 15px;
+    height: 60px;
+    width: 60px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 15px;
+    color: rgb(8, 8, 8);
+    background-color: rgb(240, 12, 12);
+    margin: 5px;
+    margin-top: 100px;
+    margin-left: 30px;
+
+}
+
+#history:hover {
+    cursor: pointer;
+    color: brown;
+    background-color: rgb(6, 6, 6);
+
+}
+
+/* clear history css code ends */
+#add-clocK {
+    width: 1vh;
+
+}
+
+.name {
+    float: left;
+    background-size: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin: auto;
+    word-spacing: 10px;
+    height: 20px;
+    width: 40vh;
+    margin: auto;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    word-wrap: break-word;
+    padding: 5px;
+
+}
+
+/* neddles end code */
+
+.hour_clock {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    height: 25%;
+    top: 20%;
+    left: 48.85%;
+    opacity: 0.8;
+    width: 2%;
+
+}
+
+.minute_clock {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    left: 48.9%;
+    opacity: 0.8;
+    width: 1.6%;
+    height: 30%;
+    top: 13%;
+}
+
+.second_clock {
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+    width: 1%;
+    height: 36%;
+    top: 8%;
+    left: 50%;
+    opacity: 0.8;
+}
+
+/* neddles end code */
+
+.clocks {
+    font-size: 50px;
+
+}
+
+.time-zone-name {
+    font-size: 1.5rem;
+    position: relative;
+    margin-top: 100%;
+    text-align: center;
+
+}
+
+/* for nav start code */
+.row {
+
+    display: flex;
+    float: left;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+
+}
+
+#select-country,
+#time {
+    height: 40px;
+    width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#time:hover {
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+
+}
+
+#add-clock {
+    position: absolute;
+    display: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+    margin: 3rem 1rem;
+    font-size: 20px;
+}
+
+#add-clock:hover {
+    cursor: pointer;
+
+}
+
+/* for nav ends code */

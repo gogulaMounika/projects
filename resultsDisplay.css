@@ -1,0 +1,106 @@
+        /* left box ends */
+        .parent {
+            display: flex;
+            height: 430px;
+            width: 600px;
+            margin: auto;
+            margin-top: 100px;
+            background-color: rgb(240, 244, 244);
+            border-radius: 25px;
+            box-shadow: 2px 2px 6px rgb(125, 122, 122);
+            text-align: center;
+            gap: 30px;
+        }
+
+        .child1 {
+            font-size: 18px;
+            text-shadow: 2px 2px 9px rgb(160, 127, 127);
+            padding: 0px 30px 0px 30px;
+            color: #a2a9af;
+            height: 430px;
+            width: 240px;
+            border-radius: 25px;
+            background: linear-gradient(rgb(46, 46, 177), rgb(3, 3, 236));
+            flex-direction: column;
+        }
+
+        .sub1Child2 {
+            border-radius: 75%;
+            width: 150px;
+            height: 150px;
+            margin: auto;
+            margin-top: 50px;
+            background: linear-gradient(rgb(3, 3, 236), rgb(46, 46, 177));
+        }
+
+        .sub1Child2>h3 {
+            padding: 25px 0px 0px 0px;
+        }
+
+        .sub1Child2>h3>div {
+            text-shadow: none;
+            font-size: 50px;
+            color: azure;
+        }
+
+        .sub1Child3 {
+            color: azure;
+            text-shadow: none;
+        }
+
+        /* left box ends */
+
+        .child2 {
+            width: 250px;
+        }
+
+        .sum {
+            text-align: left;
+        }
+
+        .sub2Child2box1 {
+            margin: 10px 10px 20px 10px;
+            background-color: rgb(178, 34, 34);
+            display: grid;
+            border-radius: 10px;
+            padding: 10px 10px 10px 10px;
+            grid-template-rows: 1fr;
+            grid-template-columns: 1fr 1fr 1fr;
+            font-size: 20px;
+        }
+
+        .box1 {
+            background-color: rgb(184, 235, 178);
+            color: rgb(168, 59, 139);
+        }
+
+        .box2 {
+            background-color: rgb(160, 231, 224);
+            color: rgb(221, 90, 8);
+        }
+
+        .box3 {
+            background-color: rgb(248, 175, 222);
+            color: rgb(37, 15, 238);
+        }
+
+        .box4 {
+            background-color: rgb(238, 232, 160);
+            color: rgb(240, 59, 9);
+        }
+
+        .marks {
+            color: black;
+        }
+
+        .span3 {
+            color: rgb(76, 73, 73);
+        }
+
+        .footer {
+            margin: 40px 10px 10px 10px;
+            padding: 13px 10px 13px 10px;
+            border-radius: 20px;
+            background-color: rgb(31, 31, 46);
+            color: azure;
+        }

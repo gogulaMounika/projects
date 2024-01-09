@@ -1,0 +1,44 @@
+        body {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        td,
+        th {
+            background-color: #FFF;
+            width: 20px;
+            height: 20px;
+            margin: 0;
+            padding: 3px;
+        }
+
+        em {
+            background-color: #333333;
+            padding: 0 5px;
+            margin: 0 5px;
+            color: #FFF
+        }
+
+        input[type=text] {
+            border: 1px solid #CCC;
+            padding: 3px 5px;
+        }
+
+        input[type=checkbox] {
+            cursor: pointer;
+            opacity: 0.01;
+            filter: alpha(opacity=1);
+
+            /* -webkit-transform: scale(2);
+            For Safari and Chrome */
+
+        }
+
+        .infoboxeach {
+            overflow: hidden;
+            font-size: 9pt;
+            border-top: 1px solid #FFF;
+            border-bottom: 1px solid #CCC;
+            margin: 10px 0;
+        }
