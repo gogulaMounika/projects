@@ -51,9 +51,9 @@ if (history.length > 0) {
 }
 
 function clearHistory() {
-    $('.history').empty();
     $('.history').append(`<button onclick="clearHistory()">Clear</button>`);
-
+    $('.history').empty();
+    
     // Clear the local storage
     localStorage.clear();
 
